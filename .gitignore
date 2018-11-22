@@ -1,6 +1,7 @@
-asl-alphabet/
+sign-language-mnist
 .vscode/
 *.joblib
+!PCA.joblib
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
