@@ -10,8 +10,10 @@ TEST_DATA_PATH = 'sign-language-mnist/sign_mnist_test.csv'
 
 def train_models(models, img, lbl):
     for name in models:
+        print('Training {}'.format(name))
         models[name].fit(img, lbl)
         joblib.dump(models[name], '{}.joblib'.format(name))
+        print('Training finish')
 
 
 if __name__ == "__main__":

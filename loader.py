@@ -4,7 +4,6 @@ from sklearn.decomposition import PCA
 from sklearn.externals import joblib
 
 TRAIN_DATA_PATH = 'sign-language-mnist/sign_mnist_train.csv'
-TEST_DATA_PATH = 'sign-language-mnist/sign_mnist_test.csv'
 
 
 def load_data(data_path):
